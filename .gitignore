@@ -1,0 +1,11 @@
+# Local review artifacts
+.concept-render/
+.agents/
+
+# Manual deployment archives are not needed with Git deployment
+*.zip
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db

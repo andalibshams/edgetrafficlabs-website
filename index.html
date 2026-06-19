@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EdgeTraffic Labs builds vendor-neutral edge computing infrastructure for safer, more responsive traffic signal operations.">
+  <meta name="theme-color" content="#071b2b">
+  <title>EdgeTraffic Labs | Intelligence at the Intersection</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="EdgeTraffic Labs home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>EdgeTraffic <strong>Labs</strong></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#about">Vision</a>
+        <a class="nav-cta" href="#contact">Start a conversation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Edge intelligence for modern traffic operations</p>
+          <h1>Make every intersection <em>more responsive.</em></h1>
+          <p class="hero-lead">A vendor-neutral edge computing platform that connects advanced sensors to existing traffic signal infrastructure, enabling real-time optimization without replacing the systems agencies already trust.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#platform">Explore the platform <span aria-hidden="true">&#8594;</span></a>
+            <a class="text-link" href="#roadmap">View our development path</a>
+          </div>
+          <div class="hero-principles" aria-label="Platform principles">
+            <div><strong>01</strong><span>Vendor<br>neutral</span></div>
+            <div><strong>02</strong><span>Safety<br>preserving</span></div>
+            <div><strong>03</strong><span>Human<br>centered</span></div>
+          </div>
+        </div>
+
+        <div class="intersection-card reveal" aria-label="Diagram showing sensors, edge intelligence, and an existing traffic signal controller">
+          <div class="visual-status"><span></span> Live intersection model</div>
+          <svg class="intersection-svg" viewBox="0 0 620 540" role="img" aria-labelledby="intersection-title intersection-desc">
+            <title id="intersection-title">EdgeTraffic intersection architecture</title>
+            <desc id="intersection-desc">Radar, lidar, and video sensors feed an edge device that works alongside an existing signal controller.</desc>
+            <defs>
+              <linearGradient id="road" x1="0" x2="1"><stop stop-color="#153244"/><stop offset="1" stop-color="#0e293b"/></linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <rect x="0" y="0" width="620" height="540" rx="24" fill="#082234"/>
+            <path d="M250 0h120v540H250zM0 210h620v120H0z" fill="url(#road)"/>
+            <g stroke="#416073" stroke-width="3" stroke-dasharray="18 15" opacity=".7">
+              <path d="M290 0v190M330 0v190M290 350v190M330 350v190M0 250h230M0 290h230M390 250h230M390 290h230"/>
+            </g>
+            <g fill="none" stroke="#79e6bb" opacity=".38">
+              <circle cx="310" cy="270" r="82"/><circle cx="310" cy="270" r="126"/><circle cx="310" cy="270" r="170"/>
+            </g>
+            <g fill="#dcecf4">
+              <rect x="278" y="88" width="25" height="43" rx="6"/><rect x="335" y="397" width="25" height="43" rx="6"/>
+              <rect x="87" y="250" width="43" height="25" rx="6"/><rect x="488" y="285" width="43" height="25" rx="6"/>
+            </g>
+            <g fill="#ffbd67"><circle cx="310" cy="270" r="10" filter="url(#glow)"/></g>
+            <g class="data-path" fill="none" stroke="#79e6bb" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9">
+              <path d="M120 105C200 115 245 165 295 250"/><path d="M510 110C440 125 385 175 325 250"/>
+            </g>
+            <g font-family="DM Sans, sans-serif" font-size="14" font-weight="600">
+              <g transform="translate(42 60)"><rect width="156" height="72" rx="14" fill="#11354a" stroke="#2a5268"/><circle cx="26" cy="26" r="7" fill="#79e6bb"/><text x="44" y="31" fill="#fff">RADAR / LiDAR</text><text x="18" y="54" fill="#87a5b5" font-size="12">High-resolution sensing</text></g>
+              <g transform="translate(422 64)"><rect width="156" height="72" rx="14" fill="#11354a" stroke="#2a5268"/><circle cx="26" cy="26" r="7" fill="#ffbd67"/><text x="44" y="31" fill="#fff">VIDEO / V2X</text><text x="18" y="54" fill="#87a5b5" font-size="12">Trajectory intelligence</text></g>
+              <g transform="translate(202 214)"><rect width="216" height="112" rx="20" fill="#f4f8fa"/><text x="24" y="36" fill="#0a2638" font-size="12" letter-spacing="1.5">EDGE INTELLIGENCE</text><text x="24" y="65" fill="#0a2638" font-size="16" font-weight="700">Observe. Evaluate. Act.</text><rect x="24" y="82" width="168" height="7" rx="3.5" fill="#d8e5ea"/><rect x="24" y="82" width="112" height="7" rx="3.5" fill="#16a877"/></g>
+              <g transform="translate(184 454)"><rect width="252" height="58" rx="14" fill="#11354a" stroke="#2a5268"/><circle cx="27" cy="29" r="8" fill="#54c89d"/><text x="48" y="26" fill="#fff">Existing signal controller</text><text x="48" y="43" fill="#87a5b5" font-size="11">Safety authority preserved</text></g>
+            </g>
+          </svg>
+          <div class="visual-caption"><span>Sensor fusion</span><span>Performance feedback</span><span>Extension-based control</span></div>
+        </div>
+      </div>
+      <div class="hero-foot container"><p>Built for the infrastructure agencies have today and the transportation systems they need tomorrow.</p></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Designed for">
+      <div class="container trust-grid">
+        <span>Designed for</span>
+        <strong>State DOTs</strong><strong>Municipalities</strong><strong>Research partners</strong><strong>Systems integrators</strong>
+      </div>
+    </section>
+
+    <section class="section platform" id="platform">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="kicker">The deployment gap</p><h2>Research moves fast.<br>Infrastructure cannot.</h2></div>
+          <p>Thousands of advanced traffic management methods have been proposed, but few make it into the field. EdgeTraffic Labs provides the practical, standards-aware environment needed to move innovation from simulation to operation.</p>
+        </div>
+
+        <div class="architecture reveal">
+          <div class="arch-column arch-input">
+            <p class="arch-label">01 / Observe</p>
+            <h3>Any sensor</h3>
+            <div class="chip-grid"><span>RADAR</span><span>LiDAR</span><span>Video</span><span>V2X</span></div>
+            <p>Normalize high-resolution data from diverse vendors and sensing technologies.</p>
+          </div>
+          <div class="arch-arrow" aria-hidden="true"><span>&#8594;</span></div>
+          <div class="arch-column arch-core">
+            <p class="arch-label">02 / Understand</p>
+            <h3>EdgeTraffic platform</h3>
+            <ul><li>Sensor fusion</li><li>Performance analytics</li><li>Real-time applications</li><li>Open, extensible APIs</li></ul>
+          </div>
+          <div class="arch-arrow" aria-hidden="true"><span>&#8594;</span></div>
+          <div class="arch-column arch-output">
+            <p class="arch-label">03 / Improve</p>
+            <h3>Existing controller</h3>
+            <div class="controller-icon" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p>Use standards-compliant, extension-based actions while keeping core safety logic intact.</p>
+          </div>
+        </div>
+        <div class="safety-note reveal"><span class="shield">&#10003;</span><p><strong>Modernization without disruption.</strong> The controller retains responsibility for safety-critical operations. Edge intelligence works alongside it, not around it.</p></div>
+      </div>
+    </section>
+
+    <section class="section capabilities" id="capabilities">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <div><p class="kicker">Three core capabilities</p><h2>A practical foundation for smarter operations.</h2></div>
+          <p>One integrated hardware-software platform connects sensing, performance analysis, and real-time action.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="cap-card reveal"><div class="cap-number">01</div><div class="cap-icon network-icon" aria-hidden="true"><i></i><i></i><i></i></div><h3>Vendor-neutral deployment</h3><p>Connect multiple sensor and controller vendors through standardized interfaces and a common edge environment.</p><a href="#contact">Discuss integration <span>&#8599;</span></a></article>
+          <article class="cap-card featured reveal"><div class="cap-number">02</div><div class="cap-icon feedback-icon" aria-hidden="true"><i></i></div><h3>Feedback-based control</h3><p>Continuously evaluate operational performance and gradually tune timing parameters as conditions change.</p><a href="#contact">Explore operations <span>&#8599;</span></a></article>
+          <article class="cap-card reveal"><div class="cap-number">03</div><div class="cap-icon sensor-icon" aria-hidden="true"><i></i><i></i><i></i></div><h3>Sensor-integrated strategies</h3><p>Use trajectories, speeds, and queues to improve dilemma zone protection, phase termination, and progression.</p><a href="#contact">Explore applications <span>&#8599;</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcomes">
+      <div class="container outcomes-grid">
+        <div class="outcomes-intro reveal"><p class="kicker">Operational value</p><h2>More capability.<br>Less operational burden.</h2><p>EdgeTraffic helps agencies improve system performance while protecting the investments, practices, and engineering oversight already in place.</p></div>
+        <div class="outcome-list">
+          <article class="reveal"><span>01</span><div><h3>Workforce efficiency</h3><p>Continuously monitor performance, surface issues, and support timing optimization with less manual intervention.</p></div></article>
+          <article class="reveal"><span>02</span><div><h3>Low-risk modernization</h3><p>Add advanced capabilities without wholesale controller replacement or disruption to established operations.</p></div></article>
+          <article class="reveal"><span>03</span><div><h3>Human-centered control</h3><p>Keep traffic engineers informed and in the decision loop with detailed performance measures and oversight.</p></div></article>
+          <article class="reveal"><span>04</span><div><h3>Future-ready foundation</h3><p>Create a pathway to connected vehicles, digital twins, AI applications, and cybersecurity monitoring.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="container">
+        <div class="roadmap-head reveal"><div><p class="kicker">Development roadmap</p><h2>From feasibility to field-proven platform.</h2></div><p>Our phased development path validates the architecture end to end, then expands and evaluates it in real operating environments.</p></div>
+        <div class="timeline reveal">
+          <div class="timeline-line"><span></span></div>
+          <article><div class="phase-dot">I</div><p class="phase-tag">Phase I / Feasibility</p><h3>Prove the deployment framework</h3><p>Build an initial edge device, ingest high-resolution sensor data, execute trajectory-aware applications, and communicate with existing controllers through standards-compliant interfaces.</p><ul><li>Initial edge hardware</li><li>End-to-end integration</li><li>Feedback control prototype</li></ul></article>
+          <article><div class="phase-dot">II</div><p class="phase-tag">Phase II / Validation</p><h3>Develop and validate in the field</h3><p>Advance the three core platform components and establish their effectiveness through field deployment and operational evaluation.</p><ul><li>Multi-vendor integration</li><li>Real-time optimization</li><li>Field performance evidence</li></ul></article>
+          <article><div class="phase-dot">&#8734;</div><p class="phase-tag">Long term / Scale</p><h3>Enable an open innovation ecosystem</h3><p>Provide a common, extensible foundation for agencies, researchers, and technology partners to deploy the next generation of intelligent transportation systems.</p><ul><li>Well-defined APIs</li><li>Custom applications</li><li>Nationwide scalability</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section vision" id="about">
+      <div class="container vision-grid">
+        <div class="vision-graphic reveal" aria-hidden="true">
+          <div class="orbit orbit-one"><span>AI</span><span>V2X</span></div><div class="orbit orbit-two"><span>APIs</span><span>Digital twins</span></div><div class="vision-core"><div class="brand-mark large"><i></i><i></i><i></i></div><strong>EdgeTraffic</strong><small>Open transportation<br>computing platform</small></div>
+        </div>
+        <div class="vision-copy reveal"><p class="kicker">Our long-term vision</p><h2>The operating layer for intelligent transportation.</h2><p>We envision a foundational middleware platform that standardizes how sensors, controllers, analytics tools, and intelligent transportation applications work together.</p><p>With default implementations at every layer and well-defined APIs for customization, agencies and innovators can build, test, and deploy new capabilities without sacrificing interoperability, reliability, or maintainability.</p><div class="vision-tags"><span>Open</span><span>Extensible</span><span>Interoperable</span><span>Secure</span></div></div>
+      </div>
+    </section>
+
+    <section class="section audience">
+      <div class="container"><div class="audience-heading reveal"><p class="kicker">Built for the whole ecosystem</p><h2>One platform. Many paths to impact.</h2></div><div class="audience-grid"><article class="reveal"><span>AG</span><h3>Transportation agencies</h3><p>State DOTs, counties, cities, and metropolitan organizations modernizing signal operations.</p></article><article class="reveal"><span>RE</span><h3>Research organizations</h3><p>Universities, UTCs, laboratories, and institutes moving innovations into the field.</p></article><article class="reveal"><span>IN</span><h3>Industry partners</h3><p>Controller manufacturers, software providers, integrators, and ITS deployment teams.</p></article></div></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-inner reveal">
+        <div><p class="kicker">Let's build the next intersection</p><h2>Bring advanced traffic technology into the real world.</h2></div>
+        <div class="contact-side"><p>We are building partnerships with transportation agencies, researchers, and technology providers.</p><a class="button button-light" href="mailto:hello@edgetrafficlabs.com">hello@edgetrafficlabs.com <span>&#8594;</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>EdgeTraffic <strong>Labs</strong></span></a><p>Vendor-neutral edge intelligence for safer, more responsive traffic operations.</p><div><p>&copy; <span id="year"></span> EdgeTraffic Labs</p><a href="#top">Back to top &#8593;</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
