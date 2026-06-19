@@ -1,6 +1,6 @@
-# EdgeTraffic Labs website
+# Edge Traffic Lab website
 
-A responsive, single-page marketing website built from the EdgeTraffic Labs concept note.
+A responsive, single-page marketing website built from the Edge Traffic Lab concept note.
 
 ## Preview
 
@@ -22,7 +22,7 @@ One-time Cloudflare setup:
    - Framework preset: `None`
    - Build command: leave blank
    - Build output directory: `/`
-7. Deploy, then open **Custom domains** and attach the EdgeTraffic Labs domain.
+7. Deploy, then open **Custom domains** and attach the Edge Traffic Lab domain.
 
 Normal publishing workflow:
 
